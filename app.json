@@ -14,19 +14,18 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/*"
     ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.udgradecompany.pacientes",
+      "versionCode": 1
+    }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
   }
-}
+
